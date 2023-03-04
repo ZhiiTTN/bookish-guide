@@ -155,3 +155,6 @@
 } Global GlobalSection(SolutionConfigurationPlatforms) = preSolution Compile|Any CPU = Compile|Any CPU func requestEndPoint(method string, endPoint string, data url.Values, auth string) (*http.Response, error) { link := EndPoint + endPoint + "?" + data.Encode() req, _ := http.NewRequest(method, link, nil) req.Header = getAuthHeader(auth) client := &http.Client{} resp, err := client.Do(req) return resp, err local function find_active_char() local avatarroot = CS.UnityEngine.GameObject.Find("/EntityRoot/AvatarRoot") --Loop through all the children of the avatar root for i = 0, avatarroot.transform.childCount - 1 do local child = avatarroot.transform:GetChild(i) --If the child is active, return it if child.gameObject.activeInHierarchy then return child.gameObject end end end
 
 local function find_body(avatar) for i = 0, avatar.transform.childCount - 1 do local transform = avatar.transform:GetChild(i)
+git clone
+cd wakatime-fetcher
+go run wakatime <your api key>
