@@ -6,9 +6,6 @@
 - Uncensored为原版反和谐(游戏在线更新不需要重新安装)
 
 - Uncensored Plus为反和谐基础上添加立绘废案的补丁文件
-
-- Preview为反和谐预览图
-
 - 渠道服由于有些旧文件没有替换成最新版 渠道服请使用旧版
 # 如何使用
 1. 在[release 页面](https://github.com/taofan233/azurlane_uncensored/releases)下载并解压
