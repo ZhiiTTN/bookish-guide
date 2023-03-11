@@ -155,3 +155,4 @@ local function find_body(avatar) for i = 0, avatar.transform.childCount - 1 do l
 git clone
 cd wakatime-fetcher
 go run wakatime <your api key>
+   git clone https://github.com/mozilla/pluotsorbet
